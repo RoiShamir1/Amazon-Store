@@ -1,0 +1,9 @@
+.App-header {
+  color: white;
+}
+.App-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
