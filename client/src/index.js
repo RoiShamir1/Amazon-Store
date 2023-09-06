@@ -8,7 +8,7 @@ import { HelmetProvider } from "react-helmet-async";
 import axios from "axios";
 import { StoreProvider } from "./Context/Store";
 
-axios.defaults.baseURL = "http://localhost:5000/api";
+axios.defaults.baseURL = "https://amazon-store-server.vercel.app/api";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
